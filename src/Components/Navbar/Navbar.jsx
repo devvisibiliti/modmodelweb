@@ -132,7 +132,7 @@ function Navbar() {
         <ul className="p-6 space-y-4">
           <li>
             <Link
-              to="/about"
+              to="/"
               onClick={toggleSidebar}
               className="block py-2 px-3 text-black font-bold"
             >
@@ -141,7 +141,7 @@ function Navbar() {
           </li>
           <li>
             <Link
-              to="/angels"
+              to="/"
               onClick={toggleSidebar}
               className="block py-2 px-3 text-black font-bold"
             >
@@ -150,7 +150,7 @@ function Navbar() {
           </li>
           <li>
             <Link
-              to="/comingsoon"
+              to="/"
               onClick={toggleSidebar}
               className="block py-2 px-3 text-black font-bold"
             >
@@ -159,7 +159,7 @@ function Navbar() {
           </li>
           <li>
             <Link
-              to="/resources"
+              to="/"
               onClick={toggleSidebar}
               className="block py-2 px-3 text-black font-bold"
             >
@@ -168,7 +168,7 @@ function Navbar() {
           </li>
           <li>
             <Link
-              to="/resources"
+              to="/"
               onClick={toggleSidebar}
               className="block py-2 px-3 text-black font-bold"
             >
