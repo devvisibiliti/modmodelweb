@@ -49,7 +49,7 @@ const Networking101 = ({ backgroundImage }) => {
         className="hidden md:block absolute inset-0 w-full h-full object-cover -z-10"
       />
 
-      <h2 className="text-3xl font-bold text-center text-black relative">Heading</h2>
+      <h2 className="text-3xl font-bold text-center text-black relative">Heading-1</h2>
       <p className="text-center text-black mb-8 relative">pargraph explain</p>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 relative">
