@@ -25,32 +25,32 @@ const Home = () => {
 
   const faqData = [
     {
-      question: "Is EOM for entrepreneurs only in Madras (Chennai)?",
-      answer: "Not at all! We celebrate the relentless spirit of the South (aka “Madrasi”). Our members are from all districts of Tamil Nadu, a few even from neighboring states such as Bangalore, Hyderabad & Mumbai.",
+      question: "FAQ Headings?",
+      answer: "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
     },
     {
-      question: "What are the benefits of joining EOM?",
-      answer: "Check out all the perks on our <a style='color:blue;font-weight:bold' href='/about'>Membership Page</a>",
+      question: "FAQ Headings?",
+      answer: "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
     },
     {
-      question: "How can I get more information?",
-      answer: "Send us a message on WhatsApp at +91 97107 27517, and we'll figure out the best way to assist you. We welcome all questions and concern.",
+      question: "FAQ Headings?",
+      answer: "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
     },
     {
-      question: "How do I stay updated on EOM events and initiatives?",
-      answer: "Join our exclusive EOM Founders-only WhatsApp group. As a member, you get priority invites to investor meetups, private dinners, and early registration for major editions & getaways. Or you can always follow us on our social media handles.",
+      question: "FAQ Headings?",
+      answer: "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
     },
     {
-      question: "Does EOM invest in startups?",
-      answer: "No, we don’t. But we do connect you with the right investors!",
+      question: "FAQ Headings?",
+      answer: "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
     },
     {
-      question: "Can EOM help me raise funds?",
-      answer: "Absolutely! We partner with VCs and angels. Our Investor Meetups and Private Dinners are perfect opportunities to connect.",
+      question: "FAQ Headings?",
+      answer: "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
     },
     {
-      question: "What is Madrasi Connect?",
-      answer: "Madrasi Connect is an AI-powered Whatsapp bot. It helps members find resources, connect, and network through keyword searches & recommendations from the vast EOM database.",
+      question: "FAQ Headings?",
+      answer: "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
     },
   ];
 
@@ -67,8 +67,8 @@ const Home = () => {
       <AIConnect
         heading={
           <>
-            Connecting Made Simple —<br />
-            <div className="bg-yellow-400 inline-block p-2 mt-2 rounded-lg">With AI Power</div>
+            Ask Your Doubts —<br />
+            <div className="bg-yellow-400 inline-block p-2 mt-2 rounded-lg">Chat With Me</div>
           </>
         }
         imgsrc={imgsrc}

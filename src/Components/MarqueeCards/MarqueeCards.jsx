@@ -4,15 +4,17 @@ import { assets } from '../../assets/assets';
 
 const MarqueeCards = () => {
   const images = [
-    assets.club1,
-    assets.club2,
-    assets.club3,
-    assets.club4,
-    assets.club5,
-    assets.club6,
-    assets.club7,
-    assets.club8,
-    assets.club9,
+    assets.fff,
+    assets.fff,
+    assets.fff,
+    assets.fff,
+    assets.fff,
+    assets.fff,
+    assets.fff,
+    assets.fff,
+    assets.fff,
+    assets.fff,
+    assets.fff,
   ];
 
   return (

@@ -56,21 +56,21 @@ const HeroSection = () => {
 
       <div className="relative z-10 text-center mb-16">
         <p className="text-base uppercase tracking-wide mb-5 font-OpenSans">
-          Start strong, scale stronger with
+          Text
         </p>
         <h1 className="text-4xl md:text-5xl font-extrabold mb-4 font-Montserrat leading-snug lg:leading-tight">
-          THE FINEST<br />FOUNDERS-ONLY CLUB
+          Text<br />Text
         </h1>
         <p className="text-lg mx-auto mb-4 font-OpenSans md:max-w-[45%]">
-          EOM is an exclusive community for growth-focused entrepreneurs who are ready for the next big leap.
+          Text
         </p>
         <div className="bg-yellow-400 px-4 inline-block rounded-lg hover:bg-white hover:shadow-[0_0_15px_5px_rgba(250,204,21,0.8)] transition-shadow duration-300">
           <button
             className=" text-black font-extrabold py-2 px-4 rounded-md transition duration-300 text-lg transform hover:scale-105 active:scale-75 active:bg-yellow-400 active:shadow-md active:translate-y-1 active:shadow-lg"
             style={{ height: '45px' }}
-            onClick={() => window.location.href = 'https://nas.io/entrepreneurs-of-madras-application'}
+            onClick={() => window.location.href = 'https://youtube.com'}
           >
-            Become a Member
+            Explore Services
           </button>
         </div>
       </div>
@@ -84,10 +84,10 @@ const HeroSection = () => {
           {/* Video Element */}
           <video
             ref={videoRef}
-            src={assets.heroVideo}
+            src={assets.fff}
             className="w-full h-auto object-cover"
             controls={isMobile}
-            poster={assets.videoimg}
+            poster={assets.fff}
           >
             <source src={assets.heroVideo} type="video/mp4" />
             Your browser does not support the video tag.

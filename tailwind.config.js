@@ -25,7 +25,7 @@ export default {
       },
       colors: {
         Section3colr:
-          "background: linear-gradient(180deg, rgba(4,19,52,1) 90%, rgba(249,213,73,1) 90%);",
+          "background: linear-gradient(180deg, rgba(57,59,60,1) 90%, rgba(211,35,40,1) 90%);",
       },
     },
   },

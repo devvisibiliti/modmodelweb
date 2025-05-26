@@ -8,24 +8,24 @@ const Networking101 = ({ backgroundImage }) => {
 
   const videos = [
     {
-      title: "Private Dinner with Million Dollar Brand",
-      series: " founder | Founders Meet-Up Series 02",
-      image: assets.network1,
-      videoUrl: "https://www.youtube.com/embed/wtkoBjXsiBQ?si=At8YdyZOhchlI-lg",
+      title: "Youtube Video",
+      series: " series",
+      image: assets.fff,
+      videoUrl: "https://www.youtube.com/",
       darkOverlay: true
     },
     {
-      title: "Entrepreneurs of Madras Club Edition 1|",
-      series: " Launched by 2000cr Brand Owner & 15+",
-      image: assets.network2,
-      videoUrl: "https://www.youtube.com/embed/X5zncoKqohk?si=KBycNn9JSjREEOGU",
+      title: "Youtube Video",
+      series: " Laun",
+      image: assets.fff,
+      videoUrl: "https://www.youtube.com/",
       darkOverlay: false
     },
     {
-      title: "Private Dinner with an Investor 🤩 |",
-      series: "Founders Meet-up Series-01",
-      image: assets.network3,
-      videoUrl: "https://www.youtube.com/embed/90B8SxhbuHA?si=tJ279hXdJBkwvvvW",
+      title: "Youtube Video",
+      series: "text",
+      image: assets.fff,
+      videoUrl: "https://www.youtube.com/",
       darkOverlay: true
     }
   ];

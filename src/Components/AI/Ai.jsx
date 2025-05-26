@@ -35,12 +35,12 @@ const AIChatComponent = ({ heading, imgsrc }) => {
               className={`flex justify-between items-center cursor-pointer pb-2 ${activeIndex === 0 ? 'border-b-2 border-gray-500' : ''}`}
               onClick={() => toggleAccordion(0)}
             >
-              <h3 className="font-semibold text-lg">What’s the hype on Madrasi Connect?</h3>
+              <h3 className="font-semibold text-lg">FAQ Heading</h3>
               <span>{activeIndex === 0 ? <ChevronUp className='bg-[#F9D549] rounded-full text-white' /> : <ChevronDown className='bg-[#F9D549] rounded-full text-black' />}</span>
             </div>
             {activeIndex === 0 && (
               <p className="mt-2 text-black">
-                Our Madrasi Connect is your go-to AI-driven assistant, built exclusively for the members of EOM club to make networking easier & efficient than ever.
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias voluptatibus, quisquam facere inventore dolores perferendis eveniet cupiditate alias delectus sequi, tenetur distinctio recusandae corporis fugit dignissimos voluptate saepe. At, maiores?
               </p>
             )}
           </div>
@@ -51,12 +51,12 @@ const AIChatComponent = ({ heading, imgsrc }) => {
               className={`flex justify-between items-center cursor-pointer pb-2 ${activeIndex === 1 ? 'border-b-2 border-gray-500' : ''}`}
               onClick={() => toggleAccordion(1)}
             >
-              <h3 className="font-semibold text-lg">You Get Tailored Matches, Instantly</h3>
+              <h3 className="font-semibold text-lg">FAQ Heading</h3>
               <span>{activeIndex === 0 ? <ChevronUp className='bg-[#F9D549] rounded-full text-white' /> : <ChevronDown className='bg-[#F9D549] rounded-full text-black' />}</span>
             </div>
             {activeIndex === 1 && (
               <p className="mt-2 text-black">
-                Using the simple WhatsApp interface, members can quickly connect with relevant founders, talents, and resources.
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem vel distinctio illum minus enim est libero. Nemo pariatur voluptatum fugit laudantium atque error ex! Id ab non ratione quisquam officiis.
               </p>
             )}
           </div>
@@ -67,12 +67,12 @@ const AIChatComponent = ({ heading, imgsrc }) => {
               className={`flex justify-between items-center cursor-pointer pb-2 ${activeIndex === 2 ? 'border-b-2 border-gray-500' : ''}`}
               onClick={() => toggleAccordion(2)}
             >
-              <h3 className="font-semibold text-lg">How Does Madrasi Connect Work?</h3>
+              <h3 className="font-semibold text-lg">FAQ Headings</h3>
               <span>{activeIndex === 0 ? <ChevronUp className='bg-[#F9D549] rounded-full text-white' /> : <ChevronDown className='bg-[#F9D549] rounded-full text-black' />}</span>
             </div>
             {activeIndex === 2 && (
               <p className="mt-2 text-black">
-                It’s simple: you provide keyword preferences, and Madrasi Connect pulls the most relevant matches from EOM’s vast network, ending your endless searches.
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae impedit sint consequuntur, dolores illum hic aliquam possimus corrupti, tenetur dolorem, debitis eaque aperiam esse explicabo velit a! Iusto, eaque enim.
               </p>
             )}
           </div>
@@ -83,12 +83,12 @@ const AIChatComponent = ({ heading, imgsrc }) => {
               className={`flex justify-between items-center cursor-pointer pb-2 ${activeIndex === 3 ? 'border-b-2 border-gray-500' : ''}`}
               onClick={() => toggleAccordion(3)}
             >
-              <h3 className="font-semibold text-lg">Instant Recommendations with AI</h3>
+              <h3 className="font-semibold text-lg">FAQ Headings</h3>
               <span>{activeIndex === 0 ? <ChevronUp className='bg-[#F9D549] rounded-full text-white' /> : <ChevronDown className='bg-[#F9D549] rounded-full text-black' />}</span>
             </div>
             {activeIndex === 3 && (
               <p className="mt-2 text-black">
-                Powered by smart AI technology, the bot recommends people and opportunities suited to your needs. You just swipe left or right!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis beatae eos dignissimos vitae harum atque quisquam repudiandae cupiditate dolores error officiis deleniti enim itaque asperiores, corporis quas in tenetur doloremque.
               </p>
             )}
           </div>

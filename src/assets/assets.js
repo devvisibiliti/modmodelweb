@@ -78,6 +78,7 @@ import club6 from "./club6.jpg";
 import club7 from "./club7.jpg";
 import club8 from "./club8.jpg";
 import club9 from "./club9.jpg";
+import fff from "./fff.png";
 import gallery1 from "./gallery1.jpg";
 import gallery2 from "./gallery2.jpg";
 import gallery3 from "./gallery3.jpg";
@@ -237,6 +238,7 @@ export const assets = {
   club7,
   club8,
   club9,
+  fff,
   gallery1,
   gallery2,
   gallery3,

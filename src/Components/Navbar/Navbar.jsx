@@ -18,7 +18,7 @@ function Navbar() {
             className="flex items-center space-x-3 rtl:space-x-reverse"
           >
             <img
-              src={assets.logo}
+              src={assets.fff}
               className="h-8"
               alt="Flowbite Logo"
               style={{ width: "103px", height: "47px" }}
@@ -51,27 +51,40 @@ function Navbar() {
           <div className="hidden w-full md:block md:w-auto" id="navbar-default">
             <ul className="font-OpenSans font-extrabold text-base flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white">
               <li>
-                <Link to="/about" className="block py-2 px-3 text-black">
+                <Link to="/" className="block py-2 px-3 text-black">
+                  HOME
+                </Link>
+              </li>
+              <li>
+                <Link to="/" className="block py-2 px-3 text-black">
+                  SERVICES
+                </Link>
+              </li>
+              <li>
+                <Link to="/" className="block py-2 px-3 text-black">
                   ABOUT
                 </Link>
               </li>
               <li>
-                <Link to="/angels" className="block py-2 px-3 text-black">
-                  ANGELS
+                <Link to="/" className="block py-2 px-3 text-black">
+                  BLOG
                 </Link>
               </li>
               <li>
-                <Link to="/comingsoon" className="block py-2 px-3 text-black">
-                  FEBE
+                <Link to="/" className="block py-2 px-3 text-black">
+                  CONTACT
                 </Link>
               </li>
               <li>
-                <Link to="/resources" className="block py-2 px-3 text-black">
-                  RESOURCES
-                </Link>
-              </li>
-              <li>
-                <div className="bg-yellow-400 px-4 inline-block rounded-lg hover:bg-white hover:shadow-[0_0_15px_5px_rgba(250,204,21,0.8)] transition-shadow duration-300">
+                <div className="bg-yellow-400
+                text-white
+    px-4
+    inline-block
+    rounded-lg
+    hover:bg-white
+    hover:shadow-[0_0_15px_5px_rgba(211,35,40,0.8)]
+    transition-shadow
+    duration-300">
                   <button
                     className="text-black font-extrabold py-2 px-4 rounded-lg transition duration-300   text-lg  transition-transform transform 
                hover:scale-105 active:scale-75 active:bg-yellow-400 active:shadow-md 
@@ -79,10 +92,10 @@ function Navbar() {
                     style={{ height: "45px" }}
                     onClick={() =>
                       (window.location.href =
-                        "https://nas.io/entrepreneurs-of-madras-application")
+                        "https://youtube.com")
                     }
                   >
-                    JOIN EOM
+                    CONTACT NOW
                   </button>
                 </div>
               </li>
@@ -123,7 +136,7 @@ function Navbar() {
               onClick={toggleSidebar}
               className="block py-2 px-3 text-black font-bold"
             >
-              ABOUT
+              HOME
             </Link>
           </li>
           <li>
@@ -132,7 +145,7 @@ function Navbar() {
               onClick={toggleSidebar}
               className="block py-2 px-3 text-black font-bold"
             >
-              ANGELS
+              SERVICES
             </Link>
           </li>
           <li>
@@ -141,7 +154,7 @@ function Navbar() {
               onClick={toggleSidebar}
               className="block py-2 px-3 text-black font-bold"
             >
-              FEBE
+              ABOUT
             </Link>
           </li>
           <li>
@@ -150,7 +163,16 @@ function Navbar() {
               onClick={toggleSidebar}
               className="block py-2 px-3 text-black font-bold"
             >
-              RESOURCES
+              BLOG
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="/resources"
+              onClick={toggleSidebar}
+              className="block py-2 px-3 text-black font-bold"
+            >
+              CONTACT
             </Link>
           </li>
           <li>
@@ -159,10 +181,10 @@ function Navbar() {
               className="w-full focus:outline-none rounded-lg font-OpenSans font-extrabold text-base text-black bg-yellow-400"
               onClick={() =>
                 (window.location.href =
-                  "https://nas.io/entrepreneurs-of-madras-application")
+                  "https://youtube.com")
               }
             >
-              JOIN EOM
+              EXPLORE NOW
             </button>
           </li>
         </ul>

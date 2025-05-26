@@ -7,57 +7,57 @@ const testimonials = [
     {
         id: 1,
         name: 'Mohan',
-        role: 'Founder of Lakshmi Krishna Naturals',
+        role: 'human',
         image: assets.mohan,
-        quote: "It took me 6 years to get where I am today. But by joining this club, you can learn certain things sooner & achieve them in just 2-3 years with the maximum takeaways, the right guidance & support.",
+        quote: "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
         rating: 4.5,
     },
     {
         id: 2,
         name: 'Sultan Refai',
-        role: 'Cofounder of Superlyfe',
+        role: 'human',
         image: assets.sultan,
-        quote: "We learn valuable insights directly from big D2C brands, their marketing strategies, upcoming trends & key areas of focus. This is a super initiative & community. The more entrepreneurs who join, and the sooner they do, the better it is for their growth. I highly recommend this community.",
+        quote: "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
         rating: 5,
     },
     {
         id: 3,
         name: 'Ragapriya',
-        role: 'Founder of Paidhu Ethical Foods',
+        role: 'Human',
         image: assets.ragapriya,
-        quote: "The personalized support, including the one-on-one consultations with Mr. Nitin, has been instrumental in refining Paidhu's business approach. These interactions have offered strategic guidance and helped shape our growth trajectory.",
+        quote: "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
         rating: 4,
     },
     {
         id: 4,
         name: 'NEERAJ',
-        role: 'Founder of Noizzy Box',
+        role: 'Human',
         image: assets.neeraj,
-        quote: "This is a great community! I think every young entrepreneur, whether they’ve already started a business or just have an idea, should join and learn from our experience and other people's experience on how to grow a successful brand.",
+        quote: "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
         rating: 4.5,
     },
     {
         id: 5,
         name: 'IRFAN',
-        role: 'Founder of Kallos Vanity Cosmetics',
+        role: 'human',
         image: assets.irfan,
-        quote: "Entrepreneurs of Madras is a great platform for founders to learn from other founders on what they do & guest speakers who’ve gone to the next level in business. We usually don’t get opportunities like this in Chennai but now that it's here, it's a great boon for entrepreneurs.",
+        quote: "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
         rating: 5,
     },
     {
         id: 6,
         name: 'SAI PRASAD RODE',
-        role: 'Cofounder of Frelish Foods Ltd',
+        role: 'Human',
         image: assets.SaiPrasadRode,
-        quote: "This has been a good association. Here it’s core learning & mutual learning that is happening a lot among the founders, it’s more of like-minded people & like-minded discussions. We’re more into understanding business problems & solving it for better. So, I always like to be here as much as possible",
+        quote: "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
         rating: 4,
     },
     {
         id: 7,
         name: 'YAMINI',
-        role: 'Cofounder of Ishwariyam Goodness',
+        role: 'Human',
         image: assets.Yamini,
-        quote: "One of the standout aspects of this community is the spirit of collaboration. There’s a genuine willingness to help each other succeed. Whether it’s through brainstorming sessions, feedback on business ideas, or simply sharing experiences, the support is unwavering.",
+        quote: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
         rating: 4.5,
     }
 ];
@@ -138,7 +138,7 @@ const TestimonialCarousel = () => {
     return (
         <div className="max-w-6xl mx-auto p-4 md:my-20">
             <h2 className="text-3xl font-bold text-center mb-2">
-                Members Of EOM Club Are Constantly Progressing Every Month.
+                Heading
             </h2>
             <p className="text-center text-lg">Here's what they have to say.</p>
 
